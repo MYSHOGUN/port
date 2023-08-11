@@ -1,8 +1,10 @@
 import React from 'react'
+import { Header , Content , Footer } from './func-components';
+import Calendar from './class-components';
 
 function App() {
-    return ( <
-        h3 > Hello World < br / > สวั สดีชาวโลก < /h3 >
+    return ( 
+        [<Header/>,<p><Calendar/></p>,<Content/>,<Footer/>]
     );
 }
 
