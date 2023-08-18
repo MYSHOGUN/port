@@ -1,12 +1,9 @@
 import React from 'react'
-import Banner from './banner'
-import { Header , Content , Footer } from './func-components';
-import Calendar from './class-components';
-import Button from './class-components2';
+import {EventData2} from './event-data'
 
 function App() {
     return ( 
-        [<Header/>,<Banner/>,<Button/>,<p><Calendar/></p>,<Content/>,<Footer/>]
+        <EventData2/>
     );
 }
 
