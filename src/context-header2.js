@@ -27,7 +27,7 @@ export default class header extends React.Component {
             <div style = {headerStyle}>
                 <a href = " ">Home</a>&nbsp;-&nbsp;
                 <a href = " ">Product</a>&nbsp;-&nbsp;
-                <a href = " ">Contact</a>&nbsp;-&nbsp;&nbsp;
+                <a href = " ">Contact Us</a>&nbsp;-&nbsp;&nbsp;
                 {
                     (user)
                     ? <span>
