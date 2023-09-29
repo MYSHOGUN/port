@@ -1,10 +1,10 @@
 import React from 'react'
 import {Footer} from './func-components'
-import Router3 from './router3';
+import FormCheck from './form-check';
 
 function App() {
     return ( 
-        [<Router3/>,<Footer/>]
+        [<FormCheck/>,<Footer/>]
     );
 }
 
