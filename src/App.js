@@ -1,10 +1,10 @@
 import React from 'react'
 import {Footer} from './func-components'
-import FormCheck from './form-check';
+import FormValidation from './form-validation';
 
 function App() {
     return ( 
-        [<FormCheck/>,<Footer/>]
+        [<FormValidation/>,<Footer/>]
     );
 }
 
