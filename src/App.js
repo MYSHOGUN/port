@@ -1,11 +1,17 @@
-import React from 'react'
-import {Footer} from './func-components'
-import FormValidation from './form-validation';
+import { BrowserRouter,Route, Routes } from 'react-router-dom';
+import Home from './pages/Home';
+
 
 function App() {
-    return ( 
-        [<FormValidation/>,<Footer/>]
-    );
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route exact path="/" element={<Home/>}>
+        </Route>
+      </Routes>  
+    </BrowserRouter>
+
+  );
 }
 
 export default App;
